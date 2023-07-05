@@ -4,7 +4,7 @@
 ### AnyKernel setup
 # begin properties
 properties() { '
-kernel.string=kontolodon by osm0sis @ xda-developers
+kernel.string= Dext-OSx By Mr.Kintil
 do.devicecheck=1
 do.modules=0
 do.systemless=1
