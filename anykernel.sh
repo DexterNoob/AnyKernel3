@@ -4,7 +4,7 @@
 ### AnyKernel setup
 # global properties
 properties() { '
-kernel.string= Dext-OSx By Mr.Kintil
+kernel.string= Dext-OSx By Mr.Noobbeast
 do.devicecheck=1
 do.modules=0
 do.systemless=1
