@@ -4,7 +4,10 @@
 ### AnyKernel setup
 # global properties
 properties() { '
-kernel.string= Dext-OSx By Mr.Noobbeast
+kernel.string=Dext-OSx 
+kernel.compiler=Phoenix Clang
+kernel.made=Noobbeast
+message.word=Join @IciperzGadget
 do.devicecheck=1
 do.modules=0
 do.systemless=1

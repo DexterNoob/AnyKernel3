@@ -24,6 +24,9 @@ ui_print() {
     shift;
   done;
 }
+
+ui_print "-----KERNEL BY  NOOBBEAST-----";
+
 ui_printfile() {
   local line losrpad;
   $BOOTMODE || [ -e /twres ] || losrpad='| '; # work around LOS Recovery eating leading whitespace
@@ -582,5 +585,23 @@ if [ "$(file_getprop anykernel.sh do.cleanup)" == 1 ]; then
 fi;
 
 ui_print " " "Done!";
+ui_print " " "_________________________________________________";
+ui_print " " "$MESSAGE_WORD" "_________________________________________________" " ";
+ui_print ""
+ui_print ""
+ui_print "##*****************************************##"
+ui_print "##                                         ##"
+ui_print "##*****************************************##"
+ui_print "##     Kernel        : Dext-OsX            ##"
+ui_print "##     Manufacturer  : Xiaomi              ##"
+ui_print "##     Device        : Redmi Note 8 Pro    ##"
+ui_print "##     Codename      : Begonia             ##"
+ui_print "##     Version       : v3.0                ##"
+ui_print "##     Author        : Noobbeast           ##"
+ui_print "#############################################"
+ui_print "##           KernelSU For Everyone :)      ##"
+ui_print "##*****************************************##"
+ui_print ""
+ui_print " " " ";
 export PATH="$OLD_PATH";
 unset OLD_PATH OUTFD ZIPFILE;
