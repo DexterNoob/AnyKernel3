@@ -4,10 +4,7 @@
 ### AnyKernel setup
 # global properties
 properties() { '
-kernel.string=dext
-kernel.compiler=AOSP clang
-kernel.made=Noobbeast
-message.word=
+kernel.string=dext by Noobbeast
 do.devicecheck=1
 do.modules=0
 do.systemless=1
